@@ -2,7 +2,6 @@
 const nav = document.querySelector('.nav');
 const toggle = document.querySelector('.nav-toggle');
 const links = document.querySelector('.nav-links');
-import { Analytics } from "@vercel/analytics/next";
 
 window.addEventListener('scroll', () => {
   if (window.scrollY > 40) nav.classList.add('scrolled');
